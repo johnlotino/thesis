@@ -1,0 +1,229 @@
+2012/07/21 04:19:00 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file.' in G:\School\Yii\yii-1.1.10.r3566\framework\YiiBase.php:318
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\YiiBase.php(198): YiiBase::import('ext.bootstrap.c...', true)
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\base\CModule.php(493): CModule->getComponent('bootstrap')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(146): CModule->preloadComponents()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\YiiBase.php(127): CApplication->__construct('G:\wamp\www\The...')
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'G:\wamp\www\The...')
+#6 G:\wamp\www\Thesis\index.php(13): YiiBase::createWebApplication('G:\wamp\www\The...')
+#7 {main}
+REQUEST_URI=/Thesis/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/Thesis/index.php?r=site/contact
+---
+2012/07/21 04:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/myCss.css".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('css/myCss.css')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/css/myCss.css
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/21 04:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 04:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/myCss.css".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('css/myCss.css')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/css/myCss.css
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 04:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 04:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:40:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:41:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/21 05:41:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:45:06 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (G:\School\Yii\yii-1.1.10.r3566\framework\web\helpers\CHtml.php:85)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\helpers\CHtml.php(140): renderAttributes()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\helpers\CHtml.php(413): tag()
+#2 G:\wamp\www\Thesis\protected\views\site\index.php(10): image()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): SiteController->renderFile()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): SiteController->renderPartial()
+#7 G:\wamp\www\Thesis\protected\controllers\SiteController.php(35): SiteController->render()
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\views\site\index.php (10)
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (35)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/21 05:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:45:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 05:46:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/Breastfeeding-icon-med.png".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('images/Breastfe...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/images/Breastfeeding-icon-med.png
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/21 06:03:13 [error] [php] include(Person.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (G:\School\Yii\yii-1.1.10.r3566\framework\YiiBase.php:418)
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\controllers\SiteController.php(36): spl_autoload_call()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (36)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/21 06:05:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "doctor/view".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/view')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/doctor/1
+HTTP_REFERER=http://localhost/Thesis/
+---
+2012/07/21 06:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "doctor/view".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/view')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/doctor/1
+HTTP_REFERER=http://localhost/Thesis/
+---
+2012/07/21 06:14:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "doctor/view".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/view')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/doctor/1
+HTTP_REFERER=http://localhost/Thesis/
+---

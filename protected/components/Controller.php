@@ -12,7 +12,7 @@ class Controller extends CController
 	public $layout='//layouts/column1';
 	public $fullname='';
 	public $user_id='';
-	public $user_type = '';
+	public $content_title= '';
 	/**
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */
@@ -23,4 +23,5 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+	public $bootBreadcrumbs = array();
 }

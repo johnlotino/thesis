@@ -19,6 +19,7 @@
  */
 class User extends CActiveRecord
 {
+	public $verifyPass;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return User the static model class
@@ -74,8 +75,9 @@ class User extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'login_id' => 'Login',
+			'login_id' => 'Username',
 			'password' => 'Password',
+			'verifyPass' => 'Re-type Password',
 			'user_type' => 'Type',
 			'status' => 'Status',
 			'history' => 'History',

@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "Doctor".
+ * This is the model class for table "doctor".
  *
- * The followings are the available columns in table 'Doctor':
+ * The followings are the available columns in table 'doctor':
  * @property string $id
  * @property string $fname
  * @property string $mname
@@ -20,6 +20,7 @@
  * The followings are the available model relations:
  * @property Appointment[] $appointments
  * @property User $login
+ * @property DoctorPatient[] $doctorPatients
  */
 class Doctor extends CActiveRecord
 {
@@ -38,7 +39,7 @@ class Doctor extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'Doctor';
+		return 'doctor';
 	}
 
 	/**
@@ -70,6 +71,7 @@ class Doctor extends CActiveRecord
 		return array(
 			'appointments' => array(self::HAS_MANY, 'Appointment', 'did'),
 			'login' => array(self::BELONGS_TO, 'User', 'login_id'),
+			'doctorPatients' => array(self::HAS_MANY, 'DoctorPatient', 'did'),
 		);
 	}
 
@@ -80,17 +82,17 @@ class Doctor extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'fname' => 'Fname',
-			'mname' => 'Mname',
-			'lname' => 'Lname',
-			'special' => 'Special',
+			'fname' => 'First Name',
+			'mname' => 'Middle Name',
+			'lname' => 'Last Name',
+			'special' => 'Specialty',
 			'status' => 'Status',
 			'history' => 'History',
 			'modify_id' => 'Modify',
 			'modify_time' => 'Modify Time',
 			'create_id' => 'Create',
 			'create_time' => 'Create Time',
-			'login_id' => 'Login',
+			'login_id' => 'Username',
 		);
 	}
 

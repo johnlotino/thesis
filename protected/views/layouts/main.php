@@ -31,23 +31,28 @@
 			'class' => 'bootstrap.widgets.BootMenu',
 			'items' => array(
 				array('label' => 'Home', 'url' => array('site/index')),
-				array('label' => 'Patients', 'url' => '#'),
 		)),
 		array(
 			'class' => 'bootstrap.widgets.BootMenu',
 			'htmlOptions' => array('class' => 'pull-right'),
 			'items' => 
 			array(
-				array('label' => $this->fullname, 'url' => 'doctor/' . $this->user_id, 'visible' => ($this->user_type == 'd')),
-				array('label' => $this->fullname, 'url' => 'person/' . $this->user_id, 'visible' => $this->user_type == 'p'),
+				array('label' => $this->fullname, 'url' => Yii::app()->getBaseUrl() . '/Doctor/' . $this->user_id, 'visible' => Yii::app()->user->checkAccess('doctor')),
+				array('label' => $this->fullname, 'url' => Yii::app()->getBaseUrl() . '/Patient/' . $this->user_id, 'visible' => Yii::app()->user->checkAccess('patient')),
 					array(
-						'label' => 'Options', 
 						'url' => '#',
 						'items' => array(
+
+						array(
+							'label' => 'Login', 
+							'url' => array('site/login'),
+							'visible' => Yii::app()->user->isGuest,
+						),
+
 						array(
 							'label' => 'Logout', 
 							'url' => array('site/logout'),
-							
+							'visible' => !Yii::app()->user->isGuest,
 						),
 					),
 			))),

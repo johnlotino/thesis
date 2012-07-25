@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "Person".
+ * This is the model class for table "patient".
  *
- * The followings are the available columns in table 'Person':
+ * The followings are the available columns in table 'patient':
  * @property string $id
  * @property string $date_reg
  * @property string $fname
@@ -38,14 +38,15 @@
  *
  * The followings are the available model relations:
  * @property Appointment[] $appointments
+ * @property DoctorPatient[] $doctorPatients
  * @property User $login
  */
-class Person extends CActiveRecord
+class Patient extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Person the static model class
+	 * @return Patient the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -57,7 +58,7 @@ class Person extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'Person';
+		return 'patient';
 	}
 
 	/**
@@ -95,6 +96,7 @@ class Person extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'appointments' => array(self::HAS_MANY, 'Appointment', 'pid'),
+			'doctorPatients' => array(self::HAS_MANY, 'DoctorPatient', 'pid'),
 			'login' => array(self::BELONGS_TO, 'User', 'login_id'),
 		);
 	}

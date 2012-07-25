@@ -33,18 +33,15 @@ class SiteController extends Controller
 			$this->redirect(Yii::app()->getBaseUrl().'/site/login');
 		else
 		{
-			$user = Person::model()->find('login_id=:login_id', array(':login_id' => Yii::app()->user->id));
-			if($user == null)
-			{
+			if(Yii::app()->user->checkAccess('doctor'))
 				$user = Doctor::model()->find('login_id=:login_id', array(':login_id' => Yii::app()->user->id));
-				$this->user_type = 'd';
-			}
-			else
+			else if(Yii::app()->user->checkAccess('patient'))
+				$user = Person::model()->find('login_id=:login_id', array(':login_id' => Yii::app()->user->id));
+			if(!Yii::app()->user->checkAccess('admin'))
 			{
-				$this->user_type = 'p';
+				$this->fullname = $user->fname . ' ' . $user->mname . ' ' . $user->lname;
+				$this->user_id = $user->id;
 			}
-			$this->fullname = $user->fname . ' ' . $user->mname . ' ' . $user->lname;
-			$this->user_id = $user->id;
 			$this->render('index');
 		}
 	}

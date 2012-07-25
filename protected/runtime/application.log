@@ -227,3 +227,977 @@ Stack trace:
 REQUEST_URI=/Thesis/doctor/1
 HTTP_REFERER=http://localhost/Thesis/
 ---
+2012/07/24 02:17:13 [error] [php] Trying to get property of non-object (G:\wamp\www\Thesis\protected\controllers\SiteController.php:46)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (46)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:19:13 [error] [php] Trying to get property of non-object (G:\wamp\www\Thesis\protected\controllers\SiteController.php:50)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (50)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "doctor/view".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php:280
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/view')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Thesis/doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 02:23:09 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:23:26 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (52)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:04 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:05 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:05 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:05 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:06 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:06 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:06 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:15 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:51)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (51)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:24:29 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/index.php
+in G:\wamp\www\Thesis\protected\controllers\SiteController.php (52)
+in G:\wamp\www\Thesis\index.php (13)
+2012/07/24 02:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doctor".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php:484
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(271): CController->missingAction('doctor')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('doctor')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/doctor')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Thesis/site/doctor/
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/24 02:54:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doctor".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php:484
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(271): CController->missingAction('doctor')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('doctor')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/doctor')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Thesis/site/doctor/
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/24 02:54:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doctor".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php:484
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(271): CController->missingAction('doctor')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('doctor')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/doctor')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Thesis/site/doctor/
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/24 02:55:00 [error] [exception.CException] exception 'CException' with message 'DoctorController has an extra endWidget(CContentDecorator) call in its view.' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php:211
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 G:\wamp\www\Thesis\protected\views\layouts\column2.php(21): CBaseController->endContent()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(133): CController->render('index', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionIndex()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 02:55:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in G:\School\Yii\yii-1.1.10.r3566\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('')
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor')
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Thesis/doctor/
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 02:56:00 [error] [exception.CException] exception 'CException' with message 'DoctorController has an extra endWidget(CContentDecorator) call in its view.' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php:211
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 G:\wamp\www\Thesis\protected\views\layouts\column2.php(21): CBaseController->endContent()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(133): CController->render('index', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionIndex()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 02:56:11 [error] [exception.CException] exception 'CException' with message 'DoctorController has an extra endWidget(CContentDecorator) call in its view.' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php:211
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 G:\wamp\www\Thesis\protected\views\layouts\column2.php(21): CBaseController->endContent()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(133): CController->render('index', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionIndex()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 02:56:32 [error] [exception.CException] exception 'CException' with message 'DoctorController has an extra endWidget(CContentDecorator) call in its view.' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php:211
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 G:\wamp\www\Thesis\protected\views\layouts\column2.php(21): CBaseController->endContent()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(55): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/doctor/1
+---
+2012/07/24 02:57:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doctor".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php:484
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(271): CController->missingAction('doctor')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('doctor')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/doctor')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Thesis/site/doctor/
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/24 02:59:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "doctor".' in G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php:484
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(271): CController->missingAction('doctor')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('doctor')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/doctor')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Thesis/site/doctor/1
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
+2012/07/24 03:00:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.getBaseUrl" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\base\CModule.php(106): CComponent->__get('getBaseUrl')
+#1 G:\wamp\www\Thesis\protected\views\layouts\main.php(41): CModule->__get('getBaseUrl')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 G:\wamp\www\Thesis\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#13 G:\wamp\www\Thesis\protected\controllers\SiteController.php(45): CController->render('index')
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('index')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index')
+#20 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Thesis/site/index
+HTTP_REFERER=http://localhost/Thesis/doctor/index
+---
+2012/07/24 07:31:59 [error] [exception.CException] exception 'CException' with message 'Property "BootButtonGroup.visible" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWidgetFactory.php(162): CComponent->__set('visible', false)
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(DoctorController), 'bootstrap.widge...', Array)
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 G:\wamp\www\Thesis\protected\views\layouts\column2.php(12): CBaseController->widget('bootstrap.widge...', Array)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#7 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(82): CController->render('create', Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:31:59 [error] [exception.CException] exception 'CException' with message 'Property "BootButtonGroup.visible" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWidgetFactory.php(162): CComponent->__set('visible', false)
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(DoctorController), 'bootstrap.widge...', Array)
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 G:\wamp\www\Thesis\protected\views\layouts\column2.php(12): CBaseController->widget('bootstrap.widge...', Array)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#7 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(82): CController->render('create', Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:34:37 [error] [exception.CException] exception 'CException' with message 'WebUser and its behaviors do not have a method or closure named "isGuest".' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:266
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\main.php(48): CComponent->__call('isGuest', Array)
+#1 G:\wamp\www\Thesis\protected\views\layouts\main.php(48): WebUser->isGuest()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 G:\wamp\www\Thesis\protected\views\layouts\column2.php(21): CBaseController->endContent()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#13 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(82): CController->render('create', Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#22 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#24 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#25 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:47:18 [error] [php] Undefined variable: user (G:\wamp\www\Thesis\protected\views\doctor\_form.php:19)
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): DoctorController->renderFile()
+#1 G:\wamp\www\Thesis\protected\views\doctor\create.php(10): DoctorController->renderPartial()
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require()
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): DoctorController->renderInternal()
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): DoctorController->renderFile()
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): DoctorController->renderPartial()
+#6 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): DoctorController->render()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): DoctorController->runAction()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): DoctorController->filterAccessControl()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): DoctorController->runActionWithFilters()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): DoctorController->run()
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 G:\wamp\www\Thesis\index.php(13): CWebApplication->run()
+REQUEST_URI=/Thesis/doctor/create
+in G:\wamp\www\Thesis\protected\views\doctor\_form.php (19)
+in G:\wamp\www\Thesis\protected\views\doctor\create.php (10)
+in G:\wamp\www\Thesis\protected\controllers\DoctorController.php (90)
+2012/07/24 07:54:59 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:06 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:06 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:06 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:06 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:07 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(3): CComponent->__get('content_title')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:54 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\create.php(6): CComponent->__set('content_title', '')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:54 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\create.php(6): CComponent->__set('content_title', '')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:55 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\create.php(6): CComponent->__set('content_title', '')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:55 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\create.php(6): CComponent->__set('content_title', '')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 07:56:55 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.content_title" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\create.php(6): CComponent->__set('content_title', '')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(90): CController->render('create', Array)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): DoctorController->actionCreate()
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('create')
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('doctor/create')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Thesis/doctor/create
+HTTP_REFERER=http://localhost/Thesis/site/login
+---
+2012/07/24 08:17:27 [error] [exception.CException] exception 'CException' with message 'Property "BootButton.0" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:174
+Stack trace:
+#0 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 G:\wamp\www\Thesis\protected\views\site\login.php(35): CBaseController->widget('bootstrap.widge...', Array)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#8 G:\wamp\www\Thesis\protected\controllers\SiteController.php(107): CController->render('login', Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('login')
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Thesis/site/login
+HTTP_REFERER=http://localhost/Thesis/doctor/create
+---
+2012/07/24 14:35:35 [error] [exception.CException] exception 'CException' with message 'WebUser and its behaviors do not have a method or closure named "accessRole".' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:266
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(9): CComponent->__call('accessRole', Array)
+#1 G:\wamp\www\Thesis\protected\views\doctor\view.php(9): WebUser->accessRole('admin')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#5 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#7 [internal function]: DoctorController->actionView('1')
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#20 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/
+---
+2012/07/24 14:38:38 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.firstname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('firstname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 14:38:44 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.fname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('fname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 14:38:44 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.fname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('fname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 14:38:45 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.fname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('fname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 14:38:45 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.fname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('fname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 14:38:45 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.fname" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\doctor\view.php(12): CComponent->__get('fname')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(870): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#5 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#6 [internal function]: DoctorController->actionView('1')
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#19 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/index.php
+---
+2012/07/24 15:18:54 [error] [exception.CException] exception 'CException' with message 'Property "DoctorController.BootBreadcrumbs" is not defined.' in G:\School\Yii\yii-1.1.10.r3566\framework\base\CComponent.php:131
+Stack trace:
+#0 G:\wamp\www\Thesis\protected\views\layouts\column2.php(6): CComponent->__get('BootBreadcrumbs')
+#1 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(127): require('G:\wamp\www\The...')
+#2 G:\School\Yii\yii-1.1.10.r3566\framework\web\CBaseController.php(96): CBaseController->renderInternal('G:\wamp\www\The...', Array, true)
+#3 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(785): CBaseController->renderFile('G:\wamp\www\The...', Array, true)
+#4 G:\wamp\www\Thesis\protected\controllers\DoctorController.php(59): CController->render('view', Array)
+#5 [internal function]: DoctorController->actionView('1')
+#6 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(DoctorController), Array)
+#7 G:\School\Yii\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DoctorController), Object(ReflectionMethod), Array)
+#8 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#12 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 G:\School\Yii\yii-1.1.10.r3566\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(292): CFilterChain->run()
+#15 G:\School\Yii\yii-1.1.10.r3566\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): CController->run('view')
+#17 G:\School\Yii\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController('Doctor/view')
+#18 G:\School\Yii\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 G:\wamp\www\Thesis\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Thesis/Doctor/1
+HTTP_REFERER=http://localhost/Thesis/site/index
+---
